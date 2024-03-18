@@ -1,5 +1,5 @@
 Desarrollo de Aplicaciones Web
-Laboratorio 01:
+Laboratorio 02:
 
 
 “Elementos Básicos de HTML5 y CSS”
