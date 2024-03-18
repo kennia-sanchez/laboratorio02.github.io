@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 50px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    padding: 35px;
+    border-radius: 6px;
+    background-color: rgba(231, 230, 230, 255);
+    border: 2px solid rgba(38, 76, 147, 255);
+}
+
+.wrapper h2 {
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(38, 76, 147, 255);
+    margin-top: 2px;
+}
+
+.wrapper form {
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 30px;
+}
+
+.wrapper form .input-box {
+    height: 40px;
+    width: 270px;
+    margin: 16px 0;
+}
+
+form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 5px;
+}
+
+.input-box input:focus,
+.input-box input:valid {
+    border-color: #4070f4;
+}
+
+.input-box.button {
+    background: rgba(159, 176, 210, 255);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.input-box.button:hover {
+    transform: translateY(-2px); /* Desplazamiento hacia arriba */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra ligeramente más pronunciada */
+}
+
+.input-box.button input {
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.input-box.button input:hover {
+    background: #3d8b8e; /* Cambiar color al pasar el cursor */
+    cursor: pointer;
+}
