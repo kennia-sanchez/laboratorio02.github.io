@@ -1,26 +1,9 @@
-Desarrollo de Aplicaciones Web
-Laboratorio 01:
+<h1>Web Application Development Lab 01:</h1>
 
+<i>"Basic Elements of HTML5 and CSS"</i>
 
-“Elementos Básicos de HTML5 y CSS”
+Kennia Jackeline Sánchez Castillo A00517129 ISDR - Digital Systems and Robotics Engineering <br>
+Prof. Jesús Carlos Morón García Monterrey, Nuevo León March 17, 2024
+<hr>
 
-
- 
-
-
-Kennia Jackeline Sánchez Castillo	A00517129
-ISDR - Ingeniería en Sistemas Digitales y Robótica 
-
-
-
-
-
-
-
-Profe. Jesús Carlos Morón García
-Monterrey, Nuevo León 
-17 de marzo, 2024
-
-
-Actividad: realizar dos páginas, una de acceso, con usuario y contraseña, y la otra que muestre la información de una agenda, utilizar HTML, y CSS para decorar las páginas, como se muestran a continuación
-
+Activity: create two pages, one for login with username and password, and the other displaying information from an agenda. Use HTML and CSS to style the pages.
