@@ -1,4 +1,4 @@
-<h1>Web Application Development Lab 01:</h1>
+<h1>Web Application Development Lab 02:</h1>
 
 <i>"Basic Elements of HTML5 and CSS"</i>
 
