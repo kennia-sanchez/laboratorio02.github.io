@@ -1,0 +1,146 @@
+body{
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  background: rgba(159, 176, 210, 255);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  width: 200px;
+  height: 50px;
+  margin: 20px 0; 
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button input {
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 20px 30px;
+  font-size: 20px;
+}
+
+button input:hover {
+  background: #3d8b8e;
+  cursor: pointer;
+}
+
+img{
+  width: 310px;
+  height: 339px;
+  padding-left: 75px;
+  padding-top: 30px;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+
+  margin-left: 80px;
+  margin-top: 40px;
+}
+a:hover{
+  background-color: rgba(38, 76, 147, 255);
+  color: white;
+}
+
+.textbox{
+  width: 900px;
+  height: 300px;
+  align-content: top-left;
+}
+
+.prev{
+  background-color: rgba(159, 176, 210, 255);
+  color: white;
+  border-radius: 15px;
+}
+
+.next{
+  background-color: rgba(159, 176, 210, 255);
+  color: white;
+  border-radius: 15px;
+}
+
+.round{
+  border-radius: 70%;
+}
+
+.mytabs{
+  display: flex;
+  flex-wrap: wrap;
+  /*max-width: 1000px;*/
+  width: 95%;
+}
+
+.mytabs input[type="radio"]{
+  display: none;
+}
+
+.mytabs label{
+  padding: 25px;
+  background: #e2e2e2;
+  font-weight: bold;
+  color: rgba(38, 76, 147, 255);
+}
+
+.mytabs .tab{
+  width: 99%;
+  padding: 40px;
+  background: #fff;
+  order: 1;
+  display: none;
+  border: 1px solid rgba(215,213,213,255);
+}
+
+.mytabs .tab h2{
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab{
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label{
+  background: white;
+}
+
+/* COLUMNAS */
+
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  min-height: 550px;
+  background-color: #fff;
+}
+
+#container div{
+  height: 50px;
+  width: 500px;
+  margin: 10px;
+}
+
+#userid,
+#names,
+#lastnames,
+#addr,
+#email,
+#phone,
+#bday {
+  width: 200px; /* Ajusta el ancho del cuadro de entrada de texto */
+  height: 40px; /* Ajusta la altura del cuadro de entrada de texto */
+  font-size: 16px; /* Ajusta el tamaño del texto dentro del cuadro de entrada de texto */
+  margin-bottom: 5px; /* Espacio entre los cuadros de entrada de texto */
+}
